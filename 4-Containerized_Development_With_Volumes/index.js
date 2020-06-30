@@ -8,8 +8,8 @@ app.use(express.static(__dirname + '/views'));
 
 app.get('/', (req, res) => {
 
-// Change the 'color' variable to a different color!
-  var color = 'SteelBlue';
+  // Change the 'color' variable to a different color!
+  var color = 'orange';
 
   res.render('index', {color: color});
 });
